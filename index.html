@@ -3,150 +3,169 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Boas-Vindas - Pós Tech</title>
+  <title>Pós Tech - Boas-Vindas</title>
   <style>
     body {
-      font-family: "Segoe UI", sans-serif;
       margin: 0;
-      padding: 40px;
-      background-color: #f4f6f9;
-      color: #333;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #000000;
+      color: #ffffff;
       line-height: 1.6;
     }
 
+    header {
+      background-color: #000000;
+      padding: 30px 20px;
+      text-align: center;
+      border-bottom: 3px solid #e50051;
+    }
+
+    header img {
+      max-height: 50px;
+    }
+
+    main {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
     h2 {
-      background-color: #004aad;
-      color: white;
+      color: #ffffff;
+      background-color: #111;
+      border-left: 6px solid #e50051;
       padding: 12px 20px;
-      border-radius: 8px;
-      font-size: 22px;
+      border-radius: 6px;
+      font-size: 20px;
       margin-top: 50px;
     }
 
     section {
-      background-color: white;
+      background-color: #1a1a1a;
       padding: 24px;
+      border-left: 4px solid #e50051;
       border-radius: 8px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-      margin-top: 20px;
-    }
-
-    p, li {
-      margin: 8px 0;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.6);
+      margin-top: 15px;
     }
 
     strong {
-      color: #004aad;
-    }
-
-    .highlight {
-      font-weight: bold;
-      color: #ff5722;
+      color: #e50051;
     }
 
     ul {
       padding-left: 20px;
     }
 
-    .emoji {
-      font-size: 22px;
-      margin-right: 5px;
+    .highlight {
+      font-weight: bold;
+      color: #ffffff;
+    }
+
+    @media (max-width: 600px) {
+      main {
+        padding: 20px 10px;
+      }
     }
   </style>
 </head>
 <body>
 
-  <h2>📘 Boas-Vindas</h2>
-  <section>
-    <p><strong>Objetivo:</strong> Garantir que o aluno tenha uma experiência inicial clara e acolhedora, com informações sobre o que esperar do curso e como acessar a plataforma.</p>
-    <p><strong>Mensagem de boas-vindas com o aluno:</strong></p>
-    <p>👋 Olá, [Nome do Aluno]!</p>
-    <p>Seja muito bem-vindo à <strong>Pós Tech!</strong> 🚀<br/>
-    Agora você faz parte do <strong>maior ecossistema de ensino tech do Brasil</strong> 🇧🇷💻</p>
-    <p>Em breve, começa a sua jornada em uma <strong>pós-graduação Tech Intensive</strong>, 100% digital e hands-on, com <strong>professores incríveis, experts do mercado e especialistas da FIAP e da Alura</strong> 🎓💼</p>
-    <p class="highlight">✨ Bem-vindo à jornada! Estamos animados por ter você com a gente! ✨</p>
-  </section>
+  <header>
+    <img src="https://on.fiap.com.br/theme/fiap/postech/pos-tech.png" alt="Logo Pós Tech" />
+  </header>
 
-  <h2>📅 Lembrete de Aula Inaugural</h2>
-  <section>
-    <p><strong>Objetivo:</strong> Preparar o aluno para o início do curso e reforçar a importância da aula inaugural.</p>
-    <p>A contagem regressiva começou!<br/>
-    📚 Sua aula inaugural é em <strong>7 dias!</strong></p>
-    <p>🎯 Prepare-se para transformar o seu futuro com muito conhecimento, prática e inovação.<br/>
-    🚀 A jornada está prestes a começar — e ela promete ser incrível!</p>
-  </section>
+  <main>
+    <h2>📘 Boas-Vindas</h2>
+    <section>
+      <p><strong>Objetivo:</strong> Garantir que o aluno tenha uma experiência inicial clara e acolhedora.</p>
+      <p><strong>Mensagem:</strong><br>
+      👋 Olá, Aluno(a)!<br><br>
+      Seja muito bem-vindo à <strong>Pós Tech!</strong> 🚀<br>
+      Agora você faz parte do <strong>maior ecossistema de ensino tech do Brasil</strong> 🇧🇷💻<br><br>
+      Em breve começa a sua jornada em uma <strong>pós-graduação Tech Intensive</strong>, 100% digital e hands-on, com <strong>professores incríveis da FIAP e da Alura</strong> 🎓💼<br><br>
+      <span class="highlight">✨ Bem-vindo à jornada! Estamos animados por ter você com a gente! ✨</span>
+      </p>
+    </section>
 
-  <h2>👥 Informativo para Montar Grupo</h2>
-  <section>
-    <p><strong>Objetivo:</strong> Incentivar o aluno a organizar seu grupo de estudos e facilitar a colaboração entre os colegas.</p>
-    <p>📢 A <strong>Fase 1</strong> já está disponível na plataforma!</p>
-    <p>📘 Que tal turbinar seus estudos desde já?<br/>
-    💬 Organize seu grupo de estudos pelo nosso <strong>canal no Discord</strong> e comece a jornada com colaboração e troca de conhecimento!</p>
-  </section>
+    <h2>📅 Lembrete de Aula Inaugural</h2>
+    <section>
+      <p><strong>Objetivo:</strong> Preparar o aluno para o início do curso.</p>
+      <p>A contagem regressiva começou!<br>
+      📚 Sua aula inaugural é em <strong>7 dias!</strong><br>
+      🎯 Prepare-se para transformar seu futuro com conhecimento e inovação.<br>
+      🚀 A jornada está prestes a começar!</p>
+    </section>
 
-  <h2>📝 Lembrete sobre a Entrega do Tech Challenge</h2>
-  <section>
-    <p><strong>Objetivo:</strong> Lembrar o aluno sobre os prazos de entrega dos desafios, incentivando-o a cumprir os prazos.</p>
-    <p>🚨 Ei, só um toque!<br/>
-    O prazo de entrega do <strong>Tech Challenge</strong> está chegando! ⏰</p>
-    <p>📝 Fique de olho nas instruções na plataforma e não deixe pra última hora — <strong>mostre tudo o que você aprendeu!</strong> 😉<br/>
-    🚀 <strong>Capricha e manda ver! Estamos na torcida por você!</strong></p>
-  </section>
+    <h2>👥 Informativo para Montar Grupo</h2>
+    <section>
+      <p><strong>Objetivo:</strong> Incentivar a colaboração entre colegas.</p>
+      <p>📢 A <strong>Fase 1</strong> já está disponível na plataforma!<br>
+      💬 Organize seu grupo de estudos pelo <strong>Discord</strong> e comece trocando conhecimento!</p>
+    </section>
 
-  <h2>🔓 Informativo sobre a Liberação de Fase</h2>
-  <section>
-    <p><strong>Objetivo:</strong> Informar o aluno sobre a liberação das novas fases do curso, mantendo-o atualizado.</p>
-    <p>🔓 <strong>Fase [X] liberada!</strong><br/>
-    Convoque seu grupo pela ferramenta de grupos na Plataforma e bora continuar a jornada! 🚀💻</p>
-    <p><strong>Exemplos por fase:</strong></p>
-    <ul>
-      <li>🔓 <strong>Fase 2 liberada!</strong> Convoque seu grupo na Plataforma e continue a jornada!</li>
-      <li>🔓 <strong>Fase 3 liberada!</strong> Convoque seu grupo na Plataforma e continue a jornada!</li>
-      <li>🔓 <strong>Fase 4 liberada!</strong> Convoque seu grupo na Plataforma e continue a jornada!</li>
-      <li>🔓 <strong>Fase 5 liberada!</strong> Convoque seu grupo na Plataforma e continue a jornada!</li>
-    </ul>
-  </section>
+    <h2>📝 Lembrete sobre a Entrega do Tech Challenge</h2>
+    <section>
+      <p><strong>Objetivo:</strong> Reforçar o prazo do desafio.</p>
+      <p>🚨 Ei! O prazo de entrega do <strong>Tech Challenge</strong> está chegando!<br>
+      📝 Fique de olho na plataforma e capriche, <strong>mostre tudo que aprendeu!</strong><br>
+      🚀 Estamos na torcida por você!</p>
+    </section>
 
-  <h2>🎯 Motivacional para a Fase Final (Fase 5)</h2>
-  <section>
-    <p><strong>Objetivo:</strong> Reforçar a importância do progresso e encorajar o aluno na reta final.</p>
-    <p>Parabéns por ter chegado até aqui! 🚀<br/>
-    Você está na <strong>Fase 5 da jornada</strong> — isso significa que falta pouco pra concluir essa etapa incrível de aprendizado.</p>
-    <p>Agora é hora de <strong>manter o foco</strong>, <strong>reunir seu grupo</strong> e dar o seu melhor! 💪<br/>
-    Se pintar alguma dúvida, nossos tutores estão no <strong>Discord</strong> prontos pra te apoiar.<br/>
-    <strong>Vamos juntos até o final!</strong></p>
-  </section>
+    <h2>🔓 Liberação de Fase</h2>
+    <section>
+      <p><strong>Objetivo:</strong> Informar a liberação de novas fases.</p>
+      <p>🔓 <strong>Fase [X] liberada!</strong><br>
+      Convoque seu grupo pela ferramenta de grupos na Plataforma e bora continuar a jornada! 🚀💻</p>
+      <ul>
+        <li>🔓 <strong>Fase 2 liberada!</strong> Convoque seu grupo e continue a jornada!</li>
+        <li>🔓 <strong>Fase 3 liberada!</strong> Convoque seu grupo e continue a jornada!</li>
+        <li>🔓 <strong>Fase 4 liberada!</strong> Convoque seu grupo e continue a jornada!</li>
+        <li>🔓 <strong>Fase 5 liberada!</strong> Convoque seu grupo e continue a jornada!</li>
+      </ul>
+    </section>
 
-  <h2>🗓️ Prova Presencial</h2>
-  <section>
-    <p><strong>Objetivo:</strong> Notificar o aluno sobre o agendamento de prova presencial, reforçando a importância da preparação.</p>
-    <p>Atenção! O agendamento da <strong>prova presencial</strong> já está disponível na plataforma.<br/>
-    Garanta sua vaga escolhendo o dia, local e horário que melhor se encaixa na sua rotina.</p>
-    <p>🗓️ <strong>Agende o quanto antes para garantir disponibilidade.</strong><br/>
-    Se tiver dúvidas, fale com um tutor no nosso canal do <strong>Discord</strong>.<br/>
-    <strong>Boa sorte — estamos na torcida por você! 🍀</strong></p>
-  </section>
+    <h2>🎯 Motivacional para a Fase Final (Fase 5)</h2>
+    <section>
+      <p><strong>Objetivo:</strong> Reforçar a importância do progresso na reta final.</p>
+      <p>Parabéns por ter chegado até aqui! 🚀<br>
+      Você está na <strong>Fase 5 da jornada</strong> isso significa que falta pouco pra concluir essa etapa incrível de aprendizado.<br><br>
+      Agora é hora de <strong>manter o foco</strong>, <strong>reunir seu grupo</strong> e dar o seu melhor! 💪<br>
+      Se pintar alguma dúvida, nossos tutores estão no <strong>Discord</strong> prontos pra te apoiar.<br>
+      <span class="highlight">Vamos juntos até o final!</span>
+      </p>
+    </section>
 
-  <h2>⏰ Lembrete de Agendamento de Prova Presencial</h2>
-  <section>
-    <p><strong>Objetivo:</strong> Reforçar a urgência para agendar a prova presencial e diminuir o número de faltas.</p>
-    <p>⏰ <strong>Lembrete de Agendamento – Prova Presencial</strong><br/>
-    🚨 Atenção! Este é o <strong>último mês</strong> para agendar sua prova presencial!</p>
-    <p>🗓️ O agendamento já está disponível na plataforma — escolha o dia, local e horário que melhor se encaixa na sua rotina.<br/>
-    🎯 Garanta sua vaga o quanto antes para não ficar de fora!<br/>
-    💬 Qualquer dúvida, chame um tutor no nosso canal do <strong>Discord</strong>.<br/>
-    <strong>Boa sorte — estamos torcendo por você! 🍀🔥</strong></p>
-  </section>
+    <h2>🗓️ Prova Presencial</h2>
+    <section>
+      <p><strong>Objetivo:</strong> Notificar sobre o agendamento da prova presencial.</p>
+      <p>Atenção! O agendamento da <strong>prova presencial</strong> já está disponível na plataforma.<br>
+      Garanta sua vaga escolhendo o dia, local e horário que melhor se encaixa na sua rotina.<br>
+      🗓️ <strong>Agende o quanto antes!</strong><br>
+      Em caso de dúvidas, fale com um tutor no <strong>Discord</strong>.<br>
+      <span class="highlight">Boa sorte — estamos na torcida por você! 🍀</span></p>
+    </section>
 
-  <h2>📩 Prova Substitutiva</h2>
-  <section>
-    <p><strong>Objetivo:</strong> Informar os alunos que não conseguiram a nota necessária sobre a possibilidade de realizar uma prova substitutiva.</p>
-    <p>💡 <strong>Não desanime – você tem uma nova chance!</strong></p>
-    <p>Se você <strong>não alcançou a nota necessária</strong> no Tech Challenge, está tudo bem. Isso faz parte do processo!</p>
-    <p>Você terá a oportunidade de <strong>realizar uma prova substitutiva</strong> e seguir firme na sua jornada.<br/>
-    📩 Para mais informações sobre como participar, entre em contato com o nosso <strong>time de atendimento</strong>. Estamos aqui pra te apoiar!</p>
-    <p><strong>Vamos juntos até o fim — você é capaz! 💪✨</strong></p>
-  </section>
+    <h2>⏰ Lembrete de Agendamento de Prova Presencial</h2>
+    <section>
+      <p><strong>Objetivo:</strong> Reforçar a urgência do agendamento.</p>
+      <p>⏰ <strong>Lembrete de Agendamento Prova Presencial</strong><br>
+      🚨 Este é o <strong>último mês</strong> para agendar sua prova presencial!<br>
+      Garanta sua vaga na plataforma o quanto antes!<br>
+      💬 Dúvidas? Fale com um tutor no <strong>Discord</strong>.<br>
+      <span class="highlight">Boa sorte — estamos torcendo por você! 🔥</span></p>
+    </section>
+
+    <h2>📩 Prova Substitutiva</h2>
+    <section>
+      <p><strong>Objetivo:</strong> Informar sobre a oportunidade de substituição.</p>
+      <p>💡 <strong>Não desanime você tem uma nova chance!</strong><br>
+      Se você <strong>não alcançou a nota necessária</strong> no Tech Challenge, está tudo bem!<br>
+      Você poderá fazer uma <strong>prova substitutiva</strong> e seguir firme na jornada.<br><br>
+      📩 Para mais informações, entre em contato com nosso <strong>time de atendimento</strong>.<br>
+      <span class="highlight">Estamos aqui pra te apoiar. Você é capaz! 💪✨</span></p>
+    </section>
+  </main>
 
 </body>
 </html>
